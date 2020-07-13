@@ -6,13 +6,13 @@
 
 ### 编译环境
 
-![https://github.com/colatea/sudoku/blob/master/example/env.png?raw=true]()
+![https://raw.githubusercontent.com/colatea/sudoku/master/example/env.png]()
 
 ### 运行效果
 
-![https://github.com/colatea/sudoku/blob/master/example/run1.png?raw=true]()
-![https://github.com/colatea/sudoku/blob/master/example/run2.png?raw=true]()
-![https://github.com/colatea/sudoku/blob/master/example/run3.png?raw=true]()
+![https://raw.githubusercontent.com/colatea/sudoku/master/example/run1.png]()
+![https://raw.githubusercontent.com/colatea/sudoku/master/example/run2.png]()
+![https://raw.githubusercontent.com/colatea/sudoku/master/example/run3.png]()
 
 ### 下载地址
 下载地址：https://pan.baidu.com/s/1F2u6K8wzQCpffOX-1OMgAw
