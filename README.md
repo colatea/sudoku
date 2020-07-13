@@ -10,9 +10,9 @@
 
 ### 运行效果
 
-![https://raw.githubusercontent.com/colatea/sudoku/master/example/run1.png]()
-![https://raw.githubusercontent.com/colatea/sudoku/master/example/run2.png]()
-![https://raw.githubusercontent.com/colatea/sudoku/master/example/run3.png]()
+![run1](https://raw.githubusercontent.com/colatea/sudoku/master/example/run1.png)
+![run2](https://raw.githubusercontent.com/colatea/sudoku/master/example/run2.png)
+![run3](https://raw.githubusercontent.com/colatea/sudoku/master/example/run3.png)
 
 ### 下载地址
 下载地址：https://pan.baidu.com/s/1F2u6K8wzQCpffOX-1OMgAw
