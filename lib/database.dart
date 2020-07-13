@@ -2,6 +2,7 @@ import 'package:path_provider/path_provider.dart';
 import 'package:flutter/services.dart';
 import 'package:sqflite/sqflite.dart';
 import 'dart:io';
+import 'package:path/path.dart' as p;
 
 class MyDB {
   String _appDocPath;
@@ -32,9 +33,15 @@ class MyDB {
     var appTmpDir = await getTemporaryDirectory();
     _appDocPath = appDocDir.path;
     _appTmpPath = appTmpDir.path;
-    _file = "$_appDocPath/.$_name";
+//    _file = "$_appDocPath/.$_name";
+    _file = p.join(_appDocPath, _name);
 
     print("++++++++++++$_appTmpPath $_appDocPath $_file");
+
+
+    Directory(_appDocPath).create(recursive: true).then((Directory directory) {
+      print(directory.path);
+    });
 
     // Only copy if the database doesn't exist
     if (FileSystemEntity.typeSync(_file) == FileSystemEntityType.notFound) {

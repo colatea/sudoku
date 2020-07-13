@@ -10,8 +10,8 @@ var options = []flutter.Option{
 	flutter.WindowInitialDimensions(800, 800),
 	flutter.ForcePixelRatio(1.0),
 	flutter.AddPlugin(&path_provider.PathProviderPlugin{
-    	VendorName:      "sudoku.ColaTea.com",
+    	VendorName:      "sudoku.colatea.com",
     	ApplicationName: "sudoku",
     }),
-    flutter.AddPlugin(sqflite.NewSqflitePlugin("sudoku.ColaTea.com","sudoku")),
+    flutter.AddPlugin(sqflite.NewSqflitePlugin("sudoku.colatea.com","sudoku")),
 }
