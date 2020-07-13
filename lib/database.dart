@@ -39,7 +39,7 @@ class MyDB {
     print("++++++++++++$_appTmpPath $_appDocPath $_file");
 
 
-    Directory(_appDocPath).create(recursive: true).then((Directory directory) {
+    await Directory(_appDocPath).create(recursive: true).then((Directory directory) {
       print(directory.path);
     });
 
