@@ -6,7 +6,7 @@
 
 ### 编译环境
 
-![https://raw.githubusercontent.com/colatea/sudoku/master/example/env.png]()
+![](https://raw.githubusercontent.com/colatea/sudoku/master/example/env.png)
 
 ### 运行效果
 
